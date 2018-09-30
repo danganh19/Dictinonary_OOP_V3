@@ -1,0 +1,7 @@
+dog	con cho
+house	ngoi nha
+hair	mai toc
+computer	may tinh
+hunter	tho san
+hand	ban tay
+mouse	con chuot

@@ -1,0 +1,7 @@
+chair	cai ghe
+house	ngoi nha
+hair	mai toc
+computer	may tinh
+hunter	tho san
+mouse	con chuot
+remote	dieu khien
