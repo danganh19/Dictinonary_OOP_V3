@@ -48,7 +48,7 @@ public class DictionaryManagement {
         FileWriter fw = null;
 
         try {
-            fw = new FileWriter("ExportToFile.txt");
+            fw = new FileWriter("dictionaries.txt");
             bw = new BufferedWriter(fw);
             for (int i = 0; i < Dictionary.WordL.size(); i++) {
                 bw.write(Dictionary.WordL.get(i).getWord_target() + "\t" + Dictionary.WordL.get(i).getWord_explain());
@@ -109,9 +109,5 @@ public class DictionaryManagement {
         }
         System.out.println("Can't find and remove!");
         return false;
-    }
-
-    public static void main(String[] args) {
-        DictionaryCommandline.dictionaryAdvanced();
     }
 }
